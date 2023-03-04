@@ -1,17 +1,21 @@
 .content{
   padding: 0%;
   width: 100%;
-  height: 1000px;
+  height: 100vh;
 }
 
 .content__nav{
-  color: blue;
+  color: rgb(2, 2, 152);
   list-style-type: none;
   overflow: hidden;
 }
 
 .logo{
   text-align: left;
+  margin-top: 5px;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
 .content__btm{
@@ -20,21 +24,27 @@
   padding-left: 0%;
   float: right;
   justify-content: space-between;
+  font-weight: bold;
+  font-size: 16px;
 }
 
 .content__img{
   text-align: right;
-  size: auto;
+}
+
+.content__item{
+  width: 700px;
+  height: 450px;
+  margin-top: 100px;
 }
 
 .content__txt{
-  font-weight: bold;
+  font-size: 60px;
 }
 
 .content__box{
-  width: 150px;
+  width: 1100px;
   height: 100px;
   text-align: left;
   background-color: blue;
-  width: 500px;
 }
