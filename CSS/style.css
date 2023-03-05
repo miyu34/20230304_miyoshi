@@ -4,13 +4,14 @@
   height: auto;
   width: 100%;
   height: 100vh;
+  position: relative;
 }
 
 .content__nav {
   color: rgb(2, 2, 152);
   display: flex;
-  list-style-type: none;
   overflow: hidden;
+  list-style-type: none;
   justify-content: space-between;
   align-items: center;
   padding: 20px 20px;
@@ -27,8 +28,8 @@
 
 .content__btm {
   display: flex;
-  width: 20%;
-  float: right;
+  float: left;
+  width: 300px;
   justify-content: space-between;
   font-weight: bold;
   font-size: 16px;
@@ -47,8 +48,8 @@
 }
 
 .content__item {
-  width: 700px;
-  height: 450px;
+  width: 45%;
+  height: 30%;
   margin-top: 100px;
   position: relative;
   z-index: 2;
